@@ -2294,7 +2294,8 @@ button,
   margin: 0 0 4em 0;
   width: 100%; }
   .experience a {
-    /*text-decoration: underline;*/
+    color: blue;
+    text-decoration: underline;
     border-bottom: none;
   }
   .experience .head {
@@ -2381,10 +2382,6 @@ button,
     .experience .extra .location {
       display: none;
     } }
-    .experience a {
-      /*text-decoration: underline;*/
-      border-bottom: none;
-    }
 
 
 
