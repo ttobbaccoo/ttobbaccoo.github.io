@@ -2293,6 +2293,10 @@ button,
   flex-wrap: wrap;
   margin: 0 0 4em 0;
   width: 100%; }
+  .experience a {
+    /*text-decoration: underline;*/
+    border-bottom: none;
+  }
   .experience .head {
     -moz-align-items: center;
     -webkit-align-items: center;
