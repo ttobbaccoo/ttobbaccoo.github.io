@@ -2381,6 +2381,10 @@ button,
     .experience .extra .location {
       display: none;
     } }
+    .experience a {
+      /*text-decoration: underline;*/
+      border-bottom: none;
+    }
 
 
 
