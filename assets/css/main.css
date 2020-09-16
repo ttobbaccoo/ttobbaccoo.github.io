@@ -1199,13 +1199,14 @@ input[type="radio"] + label:before {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free';
+    /*font-family: 'Font Awesome 5 Free';*/
     font-weight: 400; }
   .icon > .label {
     display: none; }
   .icon:before {
     line-height: inherit; }
   .icon.solid:before {
+    font-family: 'Font Awesome 5 Free';
     font-weight: 900; }
   .icon.brands:before {
     font-family: 'Font Awesome 5 Brands'; }
@@ -2294,7 +2295,7 @@ button,
   margin: 0 0 4em 0;
   width: 100%; }
   .experience a {
-    /*color: blue;*/
+    color: black;
     /*text-decoration: underline;*/
     border-bottom: none;
   }
