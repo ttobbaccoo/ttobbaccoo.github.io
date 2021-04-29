@@ -2454,6 +2454,17 @@ button,
     .publications .links a::after {
       content: "]";
     }
+    .publications .bib {
+      display: none;
+      width: 100%;
+      margin-top: 25px;
+      font-size: 15px;
+    }
+    .publications .bib pre {
+      white-space: pre-wrap;
+      color: #7f888f;
+      font-family: "Open Sans", sans-serif;
+    }
   @media screen and (max-width: 600px) {
     .publications {
       display: flex;
